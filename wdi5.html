@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- <h1> Curriculum </h2>
+
+
+<h2>HTML/CSS</h2>
+<p>We applied HTML/CSS and HAML/SASS to create attractive front-end designs, with responsive designs.</p>
+
+<h2>Ruby on Rails</h2>
+<p>We started with pure Ruby and build custom apps by integrating Sinatra , then explored the Rails framework from the ground up using a range of gems to create powerful web applications </p> 
+
+<h2> JavaScript/Ajax </h2>
+<p>We then Jumped into Javascript & AJAX, and became acquainted with a host of libraries including jQuery, Underscore, and Backbone.<p>
+
+<h2>Bring it all together</h2>
+<p>With Version control system, computer science, pair programming, TDD with RSpec, databases, and project management all featured as part of the WDI syllabus. </p>
+ -->
+
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WDI5/Curriculum </title>
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Raleway:100,400' rel='stylesheet' type='text/css'>
+        
+        <script src="js/jquery.js"></script>
+        <script src="js/handlebars.js"></script>
+        
+        <script src="js/main.js"></script>
+        <script id="tea-template" type="text/x-handlebars-template">
+          <div class="tea" style="background-color:{{colour}}">
+            <h2>{{name}}</h2>
+            <h3>{{englishName}}</h3>
+          </div>
+        </script>
+        <script id="tea-details-template" type="text/x-handlebars-template">
+          <div class="panel" style="background-color:{{colour}}">
+            <h2>{{name}}</h2>
+            <h3>{{englishName}}</h3>
+            <p>{{description}}</p>
+            <h4><sup>$</sup>{{price}}/100g</h4>
+          </div>
+        </script>
+        <body>
+        <section id="teas">
+            <div class="panel clearfix">
+            </div>
+        </section>
+            <div id="tea-details"></div>
+        <section id="about">
+        	
+        </body>
+</html>
